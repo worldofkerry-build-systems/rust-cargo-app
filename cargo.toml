@@ -2,10 +2,9 @@
 name = "mything"
 version = "0.0.1"
 
-[lib]
-name = "mylib"
-path = "src/lib.rs"
-
 [[bin]]
 name = "mybin"
 path = "src/bin.rs"
+
+[dependencies]
+fib = { git = "https://github.com/worldofkerry-build-systems/rust-cargo-lib.git" }
